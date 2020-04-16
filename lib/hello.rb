@@ -1,10 +1,12 @@
 def hello_t(array)
   i = 0
-  while i < array.size
-    yield array[i]
-    i = i +1
+  if array.size > 1
+    while i < array.size
+      yield array[i]
+      i = i +1
+    end
   end
   return array 
-end
+  end
 
 # call your method here!
