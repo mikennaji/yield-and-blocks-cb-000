@@ -10,7 +10,7 @@ def hello_t(array)
 
     end
 
-  elsif array.size == 0
+  else
 
     puts '"Hey! No block was given!\n"'
 
